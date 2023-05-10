@@ -1,17 +1,25 @@
+.header + .intro {
+    
+}
+
+
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
-    margin: 0;
-    padding: 20px;
+    padding: 8px;
+    margin-bottom: 0;
+
 }
 
 
 .logo {
     font-size: 24px;
     color: white;
-
+    margin-left: 30px;
+    font-weight: bolder;
 }
 
 ul {
@@ -19,4 +27,16 @@ ul {
     list-style-type: none;
     gap: 20px;
     color: white;
+}
+
+.intro {
+    background-color: #1F2937;
+    color: white;
+    margin-top: 0;
+    
+}
+
+body {
+    font-family: sans-serif;
+    
 }
