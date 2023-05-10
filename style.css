@@ -115,12 +115,15 @@ h2 {
     padding: 50px;
     display: flex;
     justify-content: space-evenly;
-     
+    font-weight: 100;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 
 .didascalie > div {
     text-align: center;
+    
 }
 
 
