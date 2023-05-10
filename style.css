@@ -1,3 +1,10 @@
+body {
+    font-family: sans-serif;
+    letter-spacing: -1px;
+    
+}
+
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -16,12 +23,14 @@
     font-weight: bolder;
 }
 
+
 ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
     color: white;
 }
+
 
 .intro {
     background-color: #1F2937;
@@ -33,11 +42,13 @@ ul {
     align-items: center;
 }
 
+
 .testo_intro {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 h1 {
     font-size: 48px;
@@ -46,6 +57,7 @@ h1 {
     text-align: start;
     margin-bottom: 10px;
 }
+
 
 .testo_intro > p {
     text-align: start;
@@ -58,6 +70,12 @@ h1 {
     text-align: right;
     padding: 70px;   
 }
+
+
+.immagine {
+    border-radius: 10px;
+}
+
 
 .btn1 {
     background-color: #3882f6;
@@ -74,6 +92,7 @@ h1 {
     margin-left: -300px;
 }
 
+
 .btn1:hover {
     background-color: #6ca0f3;
     transition: 0.4s;
@@ -81,7 +100,32 @@ h1 {
 }
 
 
-body {
-    font-family: sans-serif;
-    
+.random {
+    padding: 50px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
+.didascalie {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+
+
+.didascalie > div {
+    text-align: center;
+}
+
+
+.img1,.img2,.img3,.img4{
+    border: 4px #3882f6 solid;
+    border-radius: 10px;
+}
+
